@@ -1,8 +1,8 @@
-# Carolyn Stransky
+# Gagandeep Kapoor
 
-_Software engineer and journalist based in Berlin 🇩🇪_ <br>
+Mechanical Engineer & Analyst<br>
 
-[Email](mailto:hello@workwithcarolyn.com) / [Website](https://workwithcarolyn.com/) / [LinkedIn](https://www.linkedin.com/in/carolstran/) / [GitHub](https://github.com/carolstran/) / [Twitter](https://twitter.com/carolstran/) / [DEV](https://dev.to/carolstran/)
+[Email](mailto:Gagandeep.kapoor@warwick.ac.uk) / [LinkedIn](https://www.linkedin.com/in/carolstran/) 
 
 ## 👩🏼‍💻 Engineering Experience
 
