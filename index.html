@@ -261,39 +261,6 @@
             </p>
             <style>
     .portfolio-item {
-        position: relative;
-        overflow: hidden;
-        width: 50%;
-        float: left;
-        box-sizing: border-box;
-    }
-
-    .portfolio-item .image {
-        width: 100%;
-    }
-
-    .portfolio-item .hover-items {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        opacity: 0;
-        transition: opacity 0.3s ease-in-out;
-        background: rgba(0, 0, 0, 0.7);
-        color: #fff;
-        padding: 20px;
-        box-sizing: border-box;
-    }
-
-    .portfolio-item:hover .hover-items {
-        opacity: 1;
-    }
-</style>
-
-<style>
-    .portfolio-item {
-        position: relative;
         overflow: hidden;
         width: 100%;
         box-sizing: border-box;
@@ -301,10 +268,10 @@
     }
 
     .portfolio-item .image {
-        width: 48%; /* Adjust the width as needed */
+        width: 48%;
         float: left;
-        margin-right: 2%; /* Add some spacing between images */
-        margin-bottom: 2%; /* Add some spacing between images */
+        margin-right: 2%;
+        margin-bottom: 2%;
         overflow: hidden;
     }
 
@@ -313,32 +280,20 @@
         height: auto;
     }
 
-    .hover-items {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        opacity: 0;
-        transition: opacity 0.3s ease-in-out;
-        background: rgba(0, 0, 0, 0.7);
-        color: #fff;
-        padding: 20px;
-        box-sizing: border-box;
-    }
-
-    .portfolio-item:hover .hover-items {
-        opacity: 1;
+    .portfolio-item .text {
+        width: 48%;
+        float: left;
+        overflow: hidden;
     }
 </style>
 
-<!-- Your HTML code with collage layout -->
+<!-- Your HTML code with image on left and text on right -->
 <div class="portfolio-item">
     <div class="image">
         <img src="img/DSC04990.png" alt="">
     </div>
-    <div class="hover-items">
-        <!-- Your hover content for the first item -->
+    <div class="text">
+        <!-- Your content for the first item -->
         <h3>European Hyperloop Week</h3>
         <p class="tl-duration">2023 July</p>
         <h5>Warwick Hyperloop<span> - Pod Showcase Event</span></h5>
@@ -350,8 +305,8 @@
     <div class="image">
         <img src="img/WRe2.jpg" alt="">
     </div>
-    <div class="hover-items">
-        <!-- Your hover content for the second item -->
+    <div class="text">
+        <!-- Your content for the second item -->
         <h3>WRe2 Unveil Event</h3>
         <p class="tl-duration">2023 June</p>
         <h5>Warwick Racinge<span> - Formula Student Showcase</span></h5>
@@ -363,8 +318,8 @@
     <div class="image">
         <img src="img/ST.png" alt="">
     </div>
-    <div class="hover-items">
-        <!-- Your hover content for the third item -->
+    <div class="text">
+        <!-- Your content for the third item -->
         <h3>Visit to World's First NetZero Hub</h3>
         <p class="tl-duration">2023 Auguest</p>
         <h5>Strongford STW<span> - Severn Trent Water</span></h5>
@@ -373,6 +328,7 @@
 </div>
 
 <!-- Add more portfolio items as needed -->
+
 
         <section class="container" id="blogs">
             <div class="blogs-content">
