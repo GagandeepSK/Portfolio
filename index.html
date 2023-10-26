@@ -259,7 +259,38 @@
             <p class="port-text">
                 Here are some of my most valued winnings.
             </p>
-            <div class="portfolio-item">
+            <style>
+    .portfolio-item {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .portfolio-item .image {
+        width: 50%;
+        float: left;
+    }
+
+    .portfolio-item .hover-items {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+        background: rgba(0, 0, 0, 0.7);
+        color: #fff;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .portfolio-item:hover .hover-items {
+        opacity: 1;
+    }
+</style>
+
+<!-- Your existing HTML code -->
+<div class="portfolio-item">
     <div class="image">
         <img src="img/DSC04990.png" alt="" style="width: 100%; height: auto;">
     </div>
@@ -270,6 +301,7 @@
         <p>"At EHW, I played a key role in introducing our newly constructed pod with Electrodynamic Wheel technology, a pivotal moment that raised awareness and set a new standard for sustainable transportation within the Hyperloop space. The success was evident in the positive reception and interest from other pods, showcasing the impact of our commitment to pushing technological boundaries."</p>
     </div>
 </div>
+
 
                             </a>
                         </div>
