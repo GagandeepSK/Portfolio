@@ -6,34 +6,35 @@
 }
 
 :root {
-  --color-primary: #191d2b;
-  --color-secondary: #b02727;
+  --color-primary: #243B55; /* Deep blue for a strong, professional look */
+  --color-secondary: #FF715B; /* Bright coral for contrast and vibrancy */
   --color-white: #FFFFFF;
-  --color-black: #000;
-  --color-grey0: #f8f8f8;
-  --color-grey-1: #dbe1e8;
-  --color-grey-2: #b2becd;
-  --color-grey-3: #6c7983;
-  --color-grey-4: #454e56;
-  --color-grey-5: #2a2e35;
-  --color-grey-6: #12181b;
+  --color-black: #000000;
+  --color-grey0: #FAFAFA; /* Lighter grey for background */
+  --color-grey-1: #F0F0F0; /* Slightly darker for differentiation */
+  --color-grey-2: #D9D9D9; /* Mid-grey for secondary elements */
+  --color-grey-3: #BFBFBF; /* For less emphasis */
+  --color-grey-4: #8C8C8C; /* Darker grey for text */
+  --color-grey-5: #595959; /* Even darker for important text */
+  --color-grey-6: #262626; /* Almost black for critical text/UI elements */
   --br-sm-2: 14px;
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
 }
 
 .light-mode {
-  --color-primary: #FFFFFF;
-  --color-secondary: #F56692;
-  --color-white: #454e56;
-  --color-black: #000;
-  --color-grey0: #f8f8f8;
-  --color-grey-1: #6c7983;
-  --color-grey-2: #6c7983;
-  --color-grey-3: #6c7983;
-  --color-grey-4: #454e56;
-  --color-grey-5: #f8f8f8;
-  --color-grey-6: #12181b;
+  --color-primary: #F0F8FF; /* Alice blue for a fresh, clean background */
+  --color-secondary: #50B2C0; /* Soft teal for highlights and accents */
+  --color-white: #262626; /* Dark text on light mode for contrast */
+  --color-black: #000000;
+  --color-grey0: #FAFAFA;
+  --color-grey-1: #D6E4FF; /* Light blue for borders and accents */
+  --color-grey-2: #ADCBE3; /* Slightly darker blue for differentiation */
+  --color-grey-3: #829AB1; /* Muted blue for less focus */
+  --color-grey-4: #627D98; /* Dark blue for texts and important elements */
+  --color-grey-5: #F0F8FF; /* Very light background for cards/sections */
+  --color-grey-6: #3A506B; /* Strong blue for critical text/UI elements */
 }
+
 
 body {
   background-color: var(--color-primary);
